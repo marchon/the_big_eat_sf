@@ -17,7 +17,9 @@ BigEats.BigEatsServiceImpl = Ext.extend(Object, {
      *            scope is the scope
      */
     getItemsForBigEat: function(bigEatId, callback, scope){
-        this.onItemsForBigEat = Ext.createDelegate(BigEats.BigEatsServiceImpl.prototype.onItemsForBigEat, scope || window, [bigEatId, callback, scope], true);
+        this.onItemsForBigEat = Ext.createDelegate(
+		  BigEats.BigEatsServiceImpl.prototype.onItemsForBigEat, 
+		  scope || window, [bigEatId, callback, scope], true);
         
         Ext.Ajax.request({
             url: this.buildBigEatUrl(bigEatId),
@@ -45,7 +47,8 @@ BigEats.BigEatsServiceImpl = Ext.extend(Object, {
      * @param {Object}
      *            scope is the scope
      */
-    onItemsForBigEat: function(options, success, response, bigEatId, callback, scope){
+    onItemsForBigEat: function(options, success, response, 
+	   bigEatId, callback, scope){
         // TODO right now we return null to indicate that the items
         // should not be loaded
         var jsonResponse = !success ? null : Ext.decode(response.responseText);

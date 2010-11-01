@@ -37,8 +37,10 @@ BigEats.App = Ext.extend(Ext.Panel, {
         
         BigEats.App.superclass.initComponent.call(this);
         
-        this.selectionScreen.on(BigEats.events.BIGEAT_ITEM_SELECT, this.onBigEatsItemSelect, this);
-        this.mainView.on(BigEats.events.BIGEAT_ITEM_DETAILS_SELECT, this.onBigEatsItemDetailsSelect, this);
+        this.selectionScreen.on(BigEats.events.BIGEAT_ITEM_SELECT, 
+		  this.onBigEatsItemSelect, this);
+        this.mainView.on(BigEats.events.BIGEAT_ITEM_DETAILS_SELECT, 
+		  this.onBigEatsItemDetailsSelect, this);
     },
     
     onSplashDeactivate: function(){

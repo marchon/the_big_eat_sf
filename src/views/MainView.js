@@ -107,7 +107,11 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
     },
     
     onBackTap: function(button, event){
-        var activeItem = this.layout.activeItem, idx = this.items.items.indexOf(activeItem), ownerCt = idx === 0 ? this.ownerCt : this, animCfg = Ext.is.Android ? false : {
+        var activeItem = this.layout.activeItem, 
+		  idx = this.items.items.indexOf(activeItem), 
+		  ownerCt = idx === 0 ? this.ownerCt : this, 
+		  animCfg = Ext.is.Android ? false : 
+	    {
             type: 'slide',
             direction: 'right'
         };
@@ -128,7 +132,8 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
     loadItemsForBigEat: function(bigEat){
         var localStorageId = this.buildLocalStorageId(bigEat);
         if (localStorageId == null) {
-            Ext.Msg.Alert('No id for big eat', 'Looks like this big eat does not have an id');
+            Ext.Msg.Alert('No id for big eat', 
+			 'Looks like this big eat does not have an id');
             return;
         }
         
@@ -145,8 +150,10 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
                 // if the big eat list doesn't exist in local storage,
                 // read them from the json resource
                 if (store.getCount() == 0) {
-                    Ext.getBody().mask(false, '<div class="loading">Loading&hellip;</div>');
-                    BigEats.BigEatsService.getItemsForBigEat(bigEat.get('bigeat_id'), this.onLoadEats, this);
+                    Ext.getBody().mask(false, 
+					   '<div class="loading">Loading&hellip;</div>');
+                    BigEats.BigEatsService.getItemsForBigEat(
+					   bigEat.get('bigeat_id'), this.onLoadEats, this);
                 }
             }
         });
@@ -155,8 +162,8 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
     onLoadEats: function(bigEatId, items){
         var store = BigEats.stores.LocalStorageItems;
         if (items == null) {
-            Ext.Msg.alert('Items not loaded', 'Could not load items for Big Eat \'' + bigEatId +
-            '\' :( ');
+            Ext.Msg.alert('Items not loaded', 
+			'Could not load items for Big Eat \'' + bigEatId + '\' :( ');
         }
         else {
             store.getProxy().clear();

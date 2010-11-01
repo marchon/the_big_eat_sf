@@ -42,7 +42,11 @@ BigEats.views.BigEatsDetailsView = Ext.extend(Ext.Panel, {
      * Back button onTab event handler
      */
     backBtn: function(){
-        var activeItem = this.layout.activeItem, idx = this.items.indexOf(activeItem), ownerCt = idx === 0 ? this.ownerCt : this, animCfg = Ext.is.Android ? false : {
+        var activeItem = this.layout.activeItem, 
+		  idx = this.items.indexOf(activeItem), 
+		  ownerCt = idx === 0 ? this.ownerCt : this, 
+		  animCfg = Ext.is.Android ? false : 
+		{
             type: 'slide',
             direction: 'right'
         };

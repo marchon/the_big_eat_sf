@@ -64,7 +64,8 @@ BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
                 // reset the marker
                 currentPosMarker.setMap(null);
             }
-            var marker = this.addMarker('This is you!', 'You are here', null, geoLocation.latitude, geoLocation.longitude);
+            var marker = this.addMarker('This is you!', 
+			 'You are here', null, geoLocation.latitude, geoLocation.longitude);
             currentPosMarker = marker;
         }
     },
@@ -109,10 +110,12 @@ BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
             var infoContents = this.buildInfoContents(item);
             
             var visited = item.get('visited');
-            var image = visited ? BigEats.constants.VISITED_IMAGE : BigEats.constants.NOT_VISITED_IMAGE;
+            var image = visited ? 
+			 BigEats.constants.VISITED_IMAGE : BigEats.constants.NOT_VISITED_IMAGE;
             
             if (this.hasCoordinates(geoLat, geoLng)) {
-                var marker = this.addMarker(venue, infoContents, image, geoLat, geoLng);
+                var marker = this.addMarker(venue, 
+				    infoContents, image, geoLat, geoLng);
                 this.mapMarkers.push(marker);
             }
         }, this);
