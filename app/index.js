@@ -1,8 +1,8 @@
 Ext.ns('BigEats', 'BigEats.views', 'BigEats.stores', 'BigEats.constants', 'BigEats.events');
 
 Ext.setup({
-    phoneStartupScreen: 'phone_startup.png',
-    icon: 'icon.png',
+    phoneStartupScreen: 'resources/images/phone_startup.png',
+    icon: 'resources/images/icon.png',
     glossOnIcon: true,
     
     onReady: function(){

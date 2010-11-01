@@ -42,7 +42,7 @@ input, textarea, select {
 }
 
 .splash {
-  background: #FAFAFA inline_image("bg.png") center top no-repeat;
+  background: #FAFAFA url("../images/bg.png") center top no-repeat;
 }
 
 .start-screen {
@@ -215,7 +215,7 @@ span.loading {
 }
 
 .loading {
-    background: rgba(0, 0, 0, .3) url(../img/loading.gif) center center no-repeat;
+    background: rgba(0, 0, 0, .3) url(../images/loading.gif) center center no-repeat;
     display: block;
     width: 10em;
     height: 10em;

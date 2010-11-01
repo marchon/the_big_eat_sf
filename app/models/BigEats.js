@@ -1,14 +1,25 @@
 /**
+ * @class BigEats
+ * @extends Ext.data.Model
+ * 
  * Big eats model. represents a big eats scavenger hunt
  *
  * @author mattt
  */
 Ext.regModel('BigEats', {
     idProperty: 'bigeat_id',
-    fields: ['bigeat_id', 'abbreviation', 'year', 'tagline']
+    fields: [
+		{name: 'bigeat_id',     type: 'string'},
+		{name: 'abbreviation',  type: 'string'},
+		{name: 'year',          type: 'string'},
+		{name: 'tagline',       type: 'string'},
+	]
 });
 
 /**
+ * @class BigEats.stores.BigEats
+ * @extends Ext.data.JsonStore
+ * 
  * Big eats store
  *
  * @author mattt

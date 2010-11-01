@@ -26,36 +26,43 @@
         <!-- End Google Analytics --><!-- Sencha Touch JS -->
         <script type="text/javascript" src="sencha/ext-touch.js">
         </script>
-        <!-- End Sencha Touch JS --><!-- Application Javascript -->
-        <script type="text/javascript" src="src/index.js">
-        </script>
-        <script type="text/javascript" src="src/classes/BigEatsService.js">
-        </script>
-        <script type="text/javascript" src="src/classes/AppEvents.js">
-        </script>
-        <script type="text/javascript" src="src/classes/Constants.js">
-        </script>
-        <script type="text/javascript" src="src/data/Items.js">
-        </script>
-        <script type="text/javascript" src="src/data/BigEats.js">
-        </script>
-        <script type="text/javascript" src="src/views/SelectionView.js">
-        </script>
-        <script type="text/javascript" src="src/views/BigEatsDetailsForm.js">
-        </script>
-        <script type="text/javascript" src="src/views/BigEatsDetailsView.js">
-        </script>
-        <script type="text/javascript" src="src/views/MainView.js">
-        </script>
-        <script type="text/javascript" src="src/views/BigEatsList.js">
-        </script>
-        <script type="text/javascript" src="src/views/BigEatsMap.js">
-        </script>
-        <script type="text/javascript" src="src/App.js">
-        </script>
-        <!-- End Application Javascript -->
+        <!-- End Sencha Touch JS -->
     </head>
     <body>
+        <div id="sencha-app">
+            <script type="text/javascript" src="app/index.js">
+            </script>
+            <script type="text/javascript" src="app/App.js">
+            </script>
+            <script type="text/javascript" src="app/classes/BigEatsService.js">
+            </script>
+            <script type="text/javascript" src="app/classes/AppEvents.js">
+            </script>
+            <script type="text/javascript" src="app/classes/Constants.js">
+            </script>
+            <div id="sencha-views">
+                <script type="text/javascript" src="app/views/BigEatsList.js">
+                </script>
+                <script type="text/javascript" src="app/views/BigEatsMap.js">
+                </script>
+                <script type="text/javascript" src="app/views/SelectionView.js">
+                </script>
+                <script type="text/javascript" src="app/views/BigEatsDetailsForm.js">
+                </script>
+                <script type="text/javascript" src="app/views/BigEatsDetailsView.js">
+                </script>
+                <script type="text/javascript" src="app/views/MainView.js">
+                </script>
+            </div>
+            <div id="sencha-models">
+                <script type="text/javascript" src="app/models/Items.js">
+                </script>
+                <script type="text/javascript" src="app/models/BigEats.js">
+                </script>
+            </div>
+            <div id="sencha-controllers">
+            </div>
+        </div>
         <!-- Templates -->
         <div style="display: none;">
             <div id="about" class="about">
@@ -65,9 +72,12 @@
         <textarea id="bigeatsitem-list" class="x-hidden-display">
             <tpl for=".">
                 <div class="bigeatsitem-list-item">
-                    <div class="bigeatsitem-tnail" style="background-image: url(resources/img/bigeatitem.gif)">
+                    <div class="bigeatsitem-tnail" style="background-image: url(resources/images/bigeatitem.gif)">
                     </div>
-                    <div class="item-body">{item_name} <strong>@</strong> {venue_name}</div>
+                    <div class="item-body">
+                        {item_name} <strong>@</strong>
+                        {venue_name}
+                    </div>
                     <div class="venue-address">
                         {venue_address}
                     </div>
@@ -77,7 +87,7 @@
         <textarea id="bigeats-list" class="x-hidden-display">
             <tpl for=".">
                 <div class="bigeats-list-item">
-                    <div class="bigeats-tnail" style="background-image: url(resources/img/bigeatsf.gif)">
+                    <div class="bigeats-tnail" style="background-image: url(resources/images/bigeatsf.gif)">
                     </div>
                     <div class="bigeat-title">
                         The Big Eat SF, {year}
