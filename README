@@ -1,3 +1,34 @@
 My Sencha Touch App Contest submission.
 
-TODO
+Overview
+
+This app helps you track what items you have tried in 7x7 Magazine's 100 things to try before you die scavenger hunts:
+
+http://www.7x7.com/eat-drink/2010-big-eat-sf-100-things-try-you-die
+http://www.7x7.com/eat-drink/2009-big-eat-sf-100-things-try-you-die
+http://www.7x7.com/eat-drink/big-sweet-sf-50-treats-eat-you-die
+	
+Supported Mobile Devices:
+
+I have done all of my mobile testing on my iPhone so all bets are off for other mobile devices, at least for now :)
+
+
+Upcoming Features, Improvements:
+
+Speed improvements - load items once the list/map view is visible, cache items once they are loaded.
+Style improvements - Style the tool bar so that the style text doesn't get obscured by buttons if it is too long,  use text-overflow: ellipsis for long list entries, etc.
+Adds a stats page which shows you how many items you have tried for each scavenger hunt.
+Add an about/details/attribution page which links back to each scavenger hunt, providers version info, etc.
+Make it an offline application (use HTML 5 caching)
+Add geolocation - With geolocation the item list could be filtered to show what items are nearby (a la foursquare), and of course show your current position on the map so that you could see what venues are closest to you.
+Add a search field to the top of the item list so that a user can search for an item or venue.
+Improve map info window information
+Use an HTML 5 web database instead of local storage to track what items a user has tried.
+Improvement - Provide additional information about each venue (primary phone number, cuisine type, etc.)
+Improvement - Get the rest of the information for Big Eats 2009 and Big Sweets 2010
+Improve splashscreen, phone icon, and other images
+
+Upcoming Bug Fixes:
+
+Address venue map marker overlap
+If you are on the map panel, the back button takes you back to the list panel, rather than the scavenger hunt selection panel.
