@@ -1,5 +1,6 @@
 /**
  * Big eats item details form
+ *
  * @author mattt
  */
 BigEats.views.BigEatsDetailsForm = Ext.extend(Ext.form.FormPanel, {
@@ -22,7 +23,8 @@ BigEats.views.BigEatsDetailsForm = Ext.extend(Ext.form.FormPanel, {
             localStorageRecord.set('visited', hasVisited);
             BigEats.stores.LocalStorageItems.sync();
             
-            console.log('set visited for ' + itemId + ' to ' + hasVisited);
+            console.log('set visited for ' + itemId + ' to ' +
+            hasVisited);
             
         }, this);
         
@@ -70,11 +72,12 @@ BigEats.views.BigEatsDetailsForm = Ext.extend(Ext.form.FormPanel, {
         BigEats.views.BigEatsDetailsForm.superclass.initComponent.call(this);
     },
     
-	/**
-	 * Update the form, using information from the given big eat item.
-	 * 
-	 * @param {Object} bigEatItem is the item to update the form for.
-	 */
+    /**
+     * Update the form, using information from the given big eat item.
+     *
+     * @param {Object}
+     *            bigEatItem is the item to update the form for.
+     */
     updateItemDetails: function(bigEatItem){
         this.load(bigEatItem);
     }

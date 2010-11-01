@@ -1,6 +1,6 @@
 /**
  * The scavenger hunt selection view
- * 
+ *
  * @author mattt
  */
 BigEats.views.SelectionView = Ext.extend(Ext.Panel, {
@@ -27,11 +27,10 @@ BigEats.views.SelectionView = Ext.extend(Ext.Panel, {
         this.bigeatsList.on('itemtap', this.onBigEatsListItemTap, this);
     },
     
-    
     initToolBar: function(){
     
         this.clearButton = new Ext.Button({
-			text: 'Clear',
+            text: 'Clear',
             ui: 'confirm-round',
             handler: this.onClear,
         });

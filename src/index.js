@@ -9,4 +9,3 @@ Ext.setup({
         var app = new BigEats.App();
     }
 });
-

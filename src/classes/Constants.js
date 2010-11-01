@@ -1,5 +1,6 @@
 /**
  * Holds application constants
+ *
  * @author mattt
  */
 BigEats.constants.VISITED_IMAGE = 'resources/img/visited.png'

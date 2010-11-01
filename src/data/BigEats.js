@@ -1,5 +1,6 @@
 /**
  * Big eats model. represents a big eats scavenger hunt
+ *
  * @author mattt
  */
 Ext.regModel('BigEats', {
@@ -9,6 +10,7 @@ Ext.regModel('BigEats', {
 
 /**
  * Big eats store
+ *
  * @author mattt
  */
 BigEats.stores.BigEats = new Ext.data.JsonStore({

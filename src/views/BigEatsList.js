@@ -1,5 +1,6 @@
 /**
  * Big eat item list.
+ *
  * @author mattt
  */
 BigEats.views.BigEatsList = Ext.extend(Ext.List, {
@@ -62,13 +63,15 @@ BigEats.views.BigEatsList = Ext.extend(Ext.List, {
                             for (i = 0; i < regexps.length; i++) {
                                 var search = regexps[i];
                                 
-                                if (record.get('item_name').match(search) || record.get('venue_name').match(search)) 
+                                if (record.get('item_name').match(search) ||
+                                record.get('venue_name').match(search)) 
                                     matched.push(true);
                                 else 
                                     matched.push(false);
                             };
                             
-                            if (regexps.length > 1 && matched.indexOf(false) != -1) {
+                            if (regexps.length > 1 &&
+                            matched.indexOf(false) != -1) {
                                 return false;
                             }
                             else {

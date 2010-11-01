@@ -69,10 +69,10 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
     },
     
     initContainerPanels: function(){
-        //list view contents
+        // list view contents
         this.list = new BigEats.views.BigEatsList({});
         
-        //map view
+        // map view
         this.map = new BigEats.views.BigEatsMap({});
     },
     
@@ -92,12 +92,12 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
                 button.setIconClass('globe1');
                 this.setCard(this.list, this.getViewTransitionAnimation());
             }
-        //else
+        // else
     },
     
-	/**
-	 * Obtains the view transition animation to use
-	 */
+    /**
+     * Obtains the view transition animation to use
+     */
     getViewTransitionAnimation: function(){
         return Ext.is.Android ? false : {
             type: 'flip',
@@ -107,13 +107,10 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
     },
     
     onBackTap: function(button, event){
-        var activeItem = this.layout.activeItem, 
-			idx = this.items.items.indexOf(activeItem), 
-			ownerCt = idx === 0 ? this.ownerCt : this, animCfg = Ext.is.Android ? false : 
-			{
-            	type: 'slide',
-            	direction: 'right'
-        	};
+        var activeItem = this.layout.activeItem, idx = this.items.items.indexOf(activeItem), ownerCt = idx === 0 ? this.ownerCt : this, animCfg = Ext.is.Android ? false : {
+            type: 'slide',
+            direction: 'right'
+        };
         ownerCt.layout.prev(animCfg);
     },
     
@@ -122,16 +119,17 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
         this.fireEvent(BigEats.events.BIGEAT_ITEM_DETAILS_SELECT, r);
     },
     
-	/**
-	 * Populates the view using the given scavenger hunt
-	 * @param {Object} bigEat is the scavenger hunt to populate the view with
-	 */
+    /**
+     * Populates the view using the given scavenger hunt
+     *
+     * @param {Object}
+     *            bigEat is the scavenger hunt to populate the view with
+     */
     loadItemsForBigEat: function(bigEat){
         var localStorageId = this.buildLocalStorageId(bigEat);
         if (localStorageId == null) {
-            Ext.Msg.Alert('No id for big eat', 
-				'Looks like this big eat does not have an id');
-          	return;
+            Ext.Msg.Alert('No id for big eat', 'Looks like this big eat does not have an id');
+            return;
         }
         
         var store = BigEats.stores.LocalStorageItems;
@@ -144,11 +142,11 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
             scope: this,
             callback: function(operation){
             
-                //if the big eat list doesn't exist in local storage, read them from the json resource
+                // if the big eat list doesn't exist in local storage,
+                // read them from the json resource
                 if (store.getCount() == 0) {
                     Ext.getBody().mask(false, '<div class="loading">Loading&hellip;</div>');
-                    BigEats.BigEatsService.getItemsForBigEat(
-						bigEat.get('bigeat_id'), this.onLoadEats, this);
+                    BigEats.BigEatsService.getItemsForBigEat(bigEat.get('bigeat_id'), this.onLoadEats, this);
                 }
             }
         });
@@ -157,8 +155,8 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
     onLoadEats: function(bigEatId, items){
         var store = BigEats.stores.LocalStorageItems;
         if (items == null) {
-            Ext.Msg.alert('Items not loaded', 
-				'Could not load items for Big Eat \'' + bigEatId + '\' :( ');
+            Ext.Msg.alert('Items not loaded', 'Could not load items for Big Eat \'' + bigEatId +
+            '\' :( ');
         }
         else {
             store.getProxy().clear();
@@ -168,10 +166,12 @@ BigEats.views.MainView = Ext.extend(Ext.Panel, {
         Ext.getBody().unmask();
     },
     
-	/**
-	 * Builds the local storage id (key) to use off of the given big eat.
-	 * @param {Object} bigEat is the big eat to build the key from.
-	 */
+    /**
+     * Builds the local storage id (key) to use off of the given big eat.
+     *
+     * @param {Object}
+     *            bigEat is the big eat to build the key from.
+     */
     buildLocalStorageId: function(bigEat){
         var bigEatId = bigEat.get('bigeat_id');
         return bigEatId == null ? null : 'bigEatItems-' + bigEatId;

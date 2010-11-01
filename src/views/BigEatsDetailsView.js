@@ -1,5 +1,6 @@
 /**
  * Big eats details view
+ *
  * @author mattt
  */
 BigEats.views.BigEatsDetailsView = Ext.extend(Ext.Panel, {
@@ -27,26 +28,24 @@ BigEats.views.BigEatsDetailsView = Ext.extend(Ext.Panel, {
         
     },
     
-	/**
-	 * Update the view using the information from the given big eat item
-	 * 
-	 * @param {Object} bigEatItem is the item to update the view for
-	 */
-	 updateItemDetails: function(bigEatItem){
-		this.detailsForm.updateItemDetails(bigEatItem);
+    /**
+     * Update the view using the information from the given big eat item
+     *
+     * @param {Object}
+     *            bigEatItem is the item to update the view for
+     */
+    updateItemDetails: function(bigEatItem){
+        this.detailsForm.updateItemDetails(bigEatItem);
     },
-	
-	/**
-	 * Back button onTab event handler
-	 */
+    
+    /**
+     * Back button onTab event handler
+     */
     backBtn: function(){
-        var activeItem = this.layout.activeItem, 
-			idx = this.items.indexOf(activeItem), 
-			ownerCt = idx === 0 ? this.ownerCt : this, animCfg = Ext.is.Android ? false : 
-			{
-            	type: 'slide',
-            	direction: 'right'
-        	};
+        var activeItem = this.layout.activeItem, idx = this.items.indexOf(activeItem), ownerCt = idx === 0 ? this.ownerCt : this, animCfg = Ext.is.Android ? false : {
+            type: 'slide',
+            direction: 'right'
+        };
         
         ownerCt.layout.prev(animCfg);
     },

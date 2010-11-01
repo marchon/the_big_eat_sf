@@ -6,7 +6,7 @@
 BigEats.mapPanel;
 BigEats.mapInfoBubble;
 
-//centered at nopa :)
+// centered at nopa :)
 BigEats.DEFAULT_MAP_CENTER = new google.maps.LatLng(37.7748432, -122.4377040);
 
 BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
@@ -19,7 +19,7 @@ BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
         
         BigEats.mapPanel = new Ext.Map({
             title: 'Big Eats Map',
-            //getLocation: true,
+            // getLocation: true,
             
             mapOptions: {
             
@@ -41,23 +41,27 @@ BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
         this.items = [BigEats.mapPanel];
         BigEats.views.BigEatsMap.superclass.initComponent.call(this);
         
-        //BigEats.mapPanel.geo.on('locationerror', function(geo, bTimeout, bPermissionDenied, bLocationUnavailable, message){
-        //    console.log('location update error');
-        //});
-        //BigEats.mapPanel.geo.on('locationupdate', function(geo){
-        //    this.addCurrentPositionMarker(geo);
-        //});
+        // BigEats.mapPanel.geo.on('locationerror', function(geo,
+        // bTimeout, bPermissionDenied, bLocationUnavailable, message){
+        // console.log('location update error');
+        // });
+        // BigEats.mapPanel.geo.on('locationupdate', function(geo){
+        // this.addCurrentPositionMarker(geo);
+        // });
     },
     
     /**
      * Add a map marker for the user's current location
-     * @param {Object} geoLocation is the GeoLocation object for the user's current position
+     *
+     * @param {Object}
+     *            geoLocation is the GeoLocation object for the user's
+     *            current position
      */
     addCurrentPositionMarker: function(geoLocation){
     
         if (geoLocation) {
             if (currentPosMarker) {
-                //reset the marker
+                // reset the marker
                 currentPosMarker.setMap(null);
             }
             var marker = this.addMarker('This is you!', 'You are here', null, geoLocation.latitude, geoLocation.longitude);
@@ -67,16 +71,19 @@ BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
     
     /**
      * Return true if the given coordinates are valid, false otherwise
-     * @param {Object} geoLat is the latitude coordinate
-     * @param {Object} geoLng is the longitude coordinate
+     *
+     * @param {Object}
+     *            geoLat is the latitude coordinate
+     * @param {Object}
+     *            geoLng is the longitude coordinate
      */
     hasCoordinates: function(geoLat, geoLng){
         return (!geoLat || !geoLng) ? false : true;
     },
     
-	/**
-	 * Deletes all markers on the current map
-	 */
+    /**
+     * Deletes all markers on the current map
+     */
     deleteMarkers: function(){
         for (var i = 0; i < this.mapMarkers.length; i++) {
             this.mapMarkers[i].setMap(null);
@@ -84,12 +91,12 @@ BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
         this.mapMarkers.length = 0;
     },
     
-	/**
-	 * Loads markers using the items in the given items store
-	 */
+    /**
+     * Loads markers using the items in the given items store
+     */
     loadMarkers: function(){
-        //clear any existing markers before loading
-        //TODO read from a cache in the future
+        // clear any existing markers before loading
+        // TODO read from a cache in the future
         this.deleteMarkers();
         
         var store = BigEats.stores.LocalStorageItems;
@@ -111,11 +118,13 @@ BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
         }, this);
     },
     
-	/**
-	 * Builds the contents of a map marker info bubble
-	 * 
-	 * @param {Object} item is big eat item to use when populating the bubble.
-	 */
+    /**
+     * Builds the contents of a map marker info bubble
+     *
+     * @param {Object}
+     *            item is big eat item to use when populating the
+     *            bubble.
+     */
     buildInfoContents: function(item){
         var venue = item.get('venue_name');
         var address = item.get('venue_address');
@@ -123,20 +132,28 @@ BigEats.views.BigEatsMap = Ext.extend(Ext.Panel, {
         var visited = item.get('visited');
         
         var header = name + ' @ ' + venue;
-        var visitedString = 'Visited? ' + (visited ? ' Yep' : 'Not yet...');
+        var visitedString = 'Visited? ' +
+        (visited ? ' Yep' : 'Not yet...');
         
-        return '<h2>' + header + '</h2>' + '<p>' + address + '<br/>' + visitedString + '</p>';
+        return '<h2>' + header + '</h2>' + '<p>' + address + '<br/>' +
+        visitedString +
+        '</p>';
     },
     
-	/**
-	 * Adds a marker to the item map
-	 * 
-	 * @param {Object} title the title of the info bubble
-	 * @param {Object} infoContents the contents of the info bubble
-	 * @param {Object} image the image to use for the map marker
-	 * @param {Object} geoLat the latitude coordinate
-	 * @param {Object} geoLng the longitude coordinate
-	 */
+    /**
+     * Adds a marker to the item map
+     *
+     * @param {Object}
+     *            title the title of the info bubble
+     * @param {Object}
+     *            infoContents the contents of the info bubble
+     * @param {Object}
+     *            image the image to use for the map marker
+     * @param {Object}
+     *            geoLat the latitude coordinate
+     * @param {Object}
+     *            geoLng the longitude coordinate
+     */
     addMarker: function(title, infoContents, image, geoLat, geoLng){
         var position = new google.maps.LatLng(geoLat, geoLng);
         var marker = new google.maps.Marker({
