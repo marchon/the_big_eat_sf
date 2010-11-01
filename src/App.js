@@ -49,16 +49,13 @@ BigEats.App = Ext.extend(Ext.Panel, {
     
     onBigEatsItemSelect: function(bigEat){
         this.setCard(this.mainView, 'slide');
-        this.mainView.topToolBar.setTitle("Items: " +
-        bigEat.get('year'));
+        this.mainView.topToolBar.setTitle(bigEat.get('abbreviation'));
         this.mainView.loadItemsForBigEat(bigEat);
     },
     
     onBigEatsItemDetailsSelect: function(bigEatItem){
         this.setCard(this.detailView, 'slide');
-        this.detailView.topToolBar.setTitle(bigEatItem.get('item_name') +
-        ' @ ' +
-        bigEatItem.get('venue_name'));
+        this.detailView.topToolBar.setTitle(bigEatItem.get('item_name') + ' @ ' + bigEatItem.get('venue_name'));
         this.detailView.updateItemDetails(bigEatItem);
     },
 

@@ -3,6 +3,7 @@
  *
  * @author mattt
  */
+BigEats.clearedVisited = false;
 BigEats.views.SelectionView = Ext.extend(Ext.Panel, {
     layout: 'fit',
     cls: 'start-screen',
@@ -31,7 +32,7 @@ BigEats.views.SelectionView = Ext.extend(Ext.Panel, {
     
         this.clearButton = new Ext.Button({
             text: 'Clear',
-            ui: 'confirm-round',
+            ui: 'confirm',
             handler: this.onClear,
         });
         
@@ -48,13 +49,16 @@ BigEats.views.SelectionView = Ext.extend(Ext.Panel, {
             cls: 'htmlcontent'
         });
         
+        this.confirmClearDialog = new Ext.MessageBox({});
+        this.confirmClearDialog.on('hide', this.onConfirmClearDialogHide, this);
+        
         this.infoButton = new Ext.Button({
             iconCls: 'info',
             handler: this.onInfo,
         });
         
         this.topToolBar = new Ext.Toolbar({
-            title: 'Big Eats App',
+            title: BigEats.constants.APP_TITLE,
             dock: 'top',
             
             scroll: {
@@ -70,7 +74,7 @@ BigEats.views.SelectionView = Ext.extend(Ext.Panel, {
             items: [{
                 flex: 1,
                 xtype: 'spacer'
-            }, this.clearButton, this.infoButton]
+            }, this.clearButton]
         });
     },
     
@@ -79,9 +83,18 @@ BigEats.views.SelectionView = Ext.extend(Ext.Panel, {
     },
     
     onClear: function(button, event){
-        Ext.Msg.confirm('Clear', 'Are you sure that you want to clear?', function(){
+       //TODO no global flag
+        BigEats.clearedVisited = false;
+        this.confirmClearDialog.confirm('Clear Items', 'Are you sure that you want to clear the items that you have tried?', function(){
             localStorage.clear();
+            BigEats.clearedVisited = true;
         }, this);
+    },
+    
+    onConfirmClearDialogHide: function(dialog){
+        if (BigEats.clearedVisited) {
+            Ext.Msg.alert('Cleared Items', 'Items have been cleared');
+        }
     },
     
     onBigEatsListItemTap: function(dv, index, item, e){

@@ -5,13 +5,12 @@
         <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
         <meta name="description" content="The Big Eat SF scavenger hunt app" />
         <title>7x7 Big Eat Scavenger Hunt</title>
-        <!-- <link rel="stylesheet" href="sencha/sencha-touch.css" type="text/css"> -->
+        <!-- Application CSS -->
         <link rel="stylesheet" href="resources/css/bigeats.css" type="text/css">
-        <!-- Google Maps -->
+        <!-- End Application CSS --><!-- Google Maps -->
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true">
         </script>
-        <!-- End Google Maps -->
-        <!-- Google Analytics -->
+        <!-- End Google Maps --><!-- Google Analytics -->
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -24,9 +23,10 @@
             catch (err) {
             }
         </script>
-        <!-- End Google Analytics -->
+        <!-- End Google Analytics --><!-- Sencha Touch JS -->
         <script type="text/javascript" src="sencha/ext-touch.js">
         </script>
+        <!-- End Sencha Touch JS --><!-- Application Javascript -->
         <script type="text/javascript" src="src/index.js">
         </script>
         <script type="text/javascript" src="src/classes/BigEatsService.js">
@@ -53,8 +53,10 @@
         </script>
         <script type="text/javascript" src="src/App.js">
         </script>
+        <!-- End Application Javascript -->
     </head>
     <body>
+        <!-- Templates -->
         <div style="display: none;">
             <div id="about" class="about">
                 Here is the stub about html
@@ -63,9 +65,12 @@
         <textarea id="bigeatsitem-list" class="x-hidden-display">
             <tpl for=".">
                 <div class="bigeatsitem-list-item">
-                    <div class="bigeatsitem-tnail">
+                    <div class="bigeatsitem-tnail" style="background-image: url(resources/img/bigeatitem.gif)">
                     </div>
-                    {item_name} @ {venue_name}
+                    <div class="item-body">{item_name} <strong>@</strong> {venue_name}</div>
+                    <div class="venue-address">
+                        {venue_address}
+                    </div>
                 </div>
             </tpl>
         </textarea>
@@ -74,9 +79,15 @@
                 <div class="bigeats-list-item">
                     <div class="bigeats-tnail" style="background-image: url(resources/img/bigeatsf.gif)">
                     </div>
-                    {year} : {tagline}
+                    <div class="bigeat-title">
+                        The Big Eat SF, {year}
+                    </div>
+                    <div class="bigeat-tagline">
+                        {tagline}
+                    </div>
                 </div>
             </tpl>
         </textarea>
+        <!-- End Templates -->
     </body>
 </html>

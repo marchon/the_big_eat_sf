@@ -20,11 +20,13 @@ BigEats.views.BigEatsDetailsForm = Ext.extend(Ext.form.FormPanel, {
             var itemId = record.get('item_id');
             
             var localStorageRecord = BigEats.stores.LocalStorageItems.getById(itemId);
-            localStorageRecord.set('visited', hasVisited);
-            BigEats.stores.LocalStorageItems.sync();
-            
-            console.log('set visited for ' + itemId + ' to ' +
-            hasVisited);
+             if (localStorageRecord) {
+                localStorageRecord.set('visited', hasVisited);
+                BigEats.stores.LocalStorageItems.sync();
+            }
+            else {
+                console.log('record did not exist for id ' + itemId)
+            }
             
         }, this);
         
