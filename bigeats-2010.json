@@ -1,0 +1,902 @@
+[
+  {
+    "visited": false,
+    "venue_website": "http://www.zunicafe.com/",
+    "venue_geolng": -122.4215078,
+    "item_name": "Roast chicken and bread salad",
+    "venue_name": "Zuni",
+    "venue_address": "1658 Market St San Francisco, CA",
+    "venue_geolat": 37.7732837,
+    "item_id": 1
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4194155,
+    "item_name": "Carnitas Taco",
+    "venue_name": "La Taqueria",
+    "venue_address": "2889 Mission St San Francisco, California",
+    "venue_geolat": 37.7749295,
+    "item_id": 3
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.littleskilletsf.com/",
+    "venue_geolng": -122.3939632,
+    "item_name": "Fried chicken and waffles",
+    "venue_name": "Little Skillet",
+    "venue_address": "360 Ritch St San Francisco, CA",
+    "venue_geolat": 37.77893,
+    "item_id": 4
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4104019,
+    "item_name": "Chasu ramen",
+    "venue_name": "Katana-Ya",
+    "venue_address": "430 Geary St San Francisco, CA",
+    "venue_geolat": 37.7870702,
+    "item_id": 5
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.ryesf.com/",
+    "venue_geolng": -122.4146061,
+    "item_name": "Basil gimlet",
+    "venue_name": "Rye",
+    "venue_address": "688 Geary Street San Francisco, CA",
+    "venue_geolat": 37.7865643,
+    "item_id": 6
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.slanteddoor.com/",
+    "venue_geolng": -122.39343,
+    "item_name": "Crab with cellophane noodles",
+    "venue_name": "the Slanted Door",
+    "venue_address": "1 Ferry Building San Francisco, CA",
+    "venue_geolat": 37.795233,
+    "item_id": 7
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.tartinebakery.com/",
+    "venue_geolng": -122.4240671,
+    "item_name": "Morning bun",
+    "venue_name": "Tartine Bakery",
+    "venue_address": "600 Guerrero St San Francisco, CA",
+    "venue_geolat": 37.7614197,
+    "item_id": 8
+  },
+  {
+    "visited": false,
+    "venue_website": "4627 Geary Blvd San Francisco, CA",
+    "venue_geolng": -122.4240671,
+    "item_name": "Tofu soup with kimchi",
+    "venue_name": "My Tofu House",
+    "venue_address": "600 Guerrero St San Francisco, CA",
+    "venue_geolat": 37.7614197,
+    "item_id": 9
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.underdogssf.com/",
+    "venue_geolng": -122.4776513,
+    "item_name": "Nick's Baja-style fish tacos at The Taco Shop",
+    "venue_name": "Underdogs",
+    "venue_address": "1824 Irving St San Francisco, CA",
+    "venue_geolat": 37.7636569,
+    "item_id": 10
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.delfinasf.com/",
+    "venue_geolng": -122.4243127,
+    "item_name": "Pork sugo with pappardelle",
+    "venue_name": "Delfina",
+    "venue_address": "3621 18th St San Francisco, CA",
+    "venue_geolat": 37.761435,
+    "item_id": 11
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.roliroti.com/",
+    "venue_geolng": -122.39343,
+    "item_name": "Porchetta sandwich",
+    "venue_name": "RoliRoti",
+    "venue_address": "1 Ferry Building San Francisco, CA",
+    "venue_geolat": 37.795233,
+    "item_id": 12
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4945193,
+    "item_name": "Soup Dumplings",
+    "venue_name": "Shanghai Dumpling King",
+    "venue_address": "3319 Balboa St San Francisco, CA",
+    "venue_geolat": 37.775825,
+    "item_id": 13
+  },
+  {
+    "visited": false,
+    "venue_website": "http://canerossosf.com/",
+    "venue_geolng": -122.39343,
+    "item_name": "Beef brisket sandwich",
+    "venue_name": "Il Cane Rosso",
+    "venue_address": "One Ferry Building San Francisco, CA",
+    "venue_geolat": 37.795233,
+    "item_id": 14
+  },
+  {
+    "visited": false,
+    "venue_website": "http://screamsorbet.com/",
+    "venue_geolng": -122.39343,
+    "item_name": "Any seasonal flavor",
+    "venue_name": "Scream Sorbet",
+    "venue_address": "One Ferry Building  San Francisco, California",
+    "venue_geolat": 37.795233,
+    "item_id": 15
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.muraccis.com/",
+    "venue_geolng": -122.4041736,
+    "item_name": "Katsu Curry",
+    "venue_name": "Murraci's Japanese Curry & Grill",
+    "venue_address": "307 Kearny Street San Francisco, CA",
+    "venue_geolat": 37.7910529,
+    "item_id": 16
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.burmasuperstar.com/",
+    "venue_geolng": -122.4625641,
+    "item_name": "Samusa soup",
+    "venue_name": "Burma Superstar",
+    "venue_address": "309 Clement Street San Francisco, CA",
+    "venue_geolat": 37.7829408,
+    "item_id": 17
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.420926,
+    "item_name": "Oysters on the half shell",
+    "venue_name": "Swan Oyster Depot",
+    "venue_address": "1517 Polk Street San Francisco, CA ",
+    "venue_geolat": 37.7909331,
+    "item_id": 18
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.michaelmina.net/",
+    "venue_geolng": -122.4082917,
+    "item_name": "Lobster pot pie",
+    "venue_name": "Michael Mina",
+    "venue_address": "335 Powell Street San Francisco, CA",
+    "venue_geolat": 37.7875994,
+    "item_id": 19
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.perbaccosf.com/",
+    "venue_geolng": -122.3992162,
+    "item_name": "Salumi misti plate",
+    "venue_name": "Perbacco",
+    "venue_address": "230 California St. San Francisco, CA",
+    "venue_geolat": 37.7934258,
+    "item_id": 20
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.pizzeriadelfina.com/",
+    "venue_geolng": -122.3992162,
+    "item_name": "Pizza margherita",
+    "venue_name": "Pizzeria Delfina",
+    "venue_address": "230 California St. San Francisco, CA",
+    "venue_geolat": 37.7934258,
+    "item_id": 21
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4173817,
+    "item_name": "Vietnamese roasted pork sandwich",
+    "venue_name": "Saigon Sandwich",
+    "venue_address": "560 Larkin Street San Francisco, CA",
+    "venue_geolat": 37.7831189,
+    "item_id": 22
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.rosamundesausagegrill.com/",
+    "venue_geolng": -122.418692,
+    "item_name": "Beer sausage with sauerkraut and grilled onions",
+    "venue_name": "Rosamunde Sausage Grill",
+    "venue_address": "2832 Mission St San Francisco, CA",
+    "venue_geolat": 37.7515687,
+    "item_id": 23
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.magnoliapub.com/",
+    "venue_geolng": -122.4453311,
+    "item_name": "Blue Bell Bitter from the cask",
+    "venue_name": "Magnolia Pub",
+    "venue_address": "1398 Haight Street San Francisco, CA",
+    "venue_geolat": 37.7702324,
+    "item_id": 24
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.tartinebakery.com/",
+    "venue_geolng": -122.4240671,
+    "item_name": "Loaf of bread straight out of the oven",
+    "venue_name": "Tartine",
+    "venue_address": "600 Guerrero St San Francisco, CA",
+    "venue_geolat": 37.7614197,
+    "item_id": 25
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.michaelmina.net/rn74/",
+    "venue_geolng": -122.395922,
+    "item_name": "A bottle of Burgundy",
+    "venue_name": "RN74",
+    "venue_address": "301 Mission Street San Francisco, CA",
+    "venue_geolat": 37.790543,
+    "item_id": 26
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4174455,
+    "item_name": "Papaya salad with salty crab",
+    "venue_name": "Sai Jai Thai",
+    "venue_address": "771 O'Farrell St San Francisco, CA",
+    "venue_geolat": 37.7851435,
+    "item_id": 27
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.bluebottlecoffee.net/",
+    "venue_geolng": -122.4077115,
+    "item_name": "A Gibraltar",
+    "venue_name": "Blue Bottle Cafe",
+    "venue_address": "66 Mint St San Francisco, CA",
+    "venue_geolat": 37.7824088,
+    "item_id": 28
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.bixrestaurant.com/",
+    "venue_geolng": -122.402905,
+    "item_name": "Tuna tartare and a gin martini",
+    "venue_name": "Bix",
+    "venue_address": "56 Gold Street San Francisco, CA",
+    "venue_geolat": 37.796859,
+    "item_id": 29
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.fishandfarmsf.com/",
+    "venue_geolng": -122.4113828,
+    "item_name": "Burger",
+    "venue_name": "Fish & Farm",
+    "venue_address": "339 Taylor Street San Francisco, CA",
+    "venue_geolat": 37.7855729,
+    "item_id": 30
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.tacolicioussf.com/",
+    "venue_geolng": -122.436727,
+    "item_name": "Tuna Tostada",
+    "venue_name": "Tacolicious",
+    "venue_address": "2031 Chestnut Street San Francisco, CA",
+    "venue_geolat": 37.80046,
+    "item_id": 31
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4181508,
+    "item_name": "Pupusas",
+    "venue_name": "Balompie Cafe",
+    "venue_address": "3349 18th Street San Francisco, CA",
+    "venue_geolat": 37.7618494,
+    "item_id": 32
+  },
+  {
+    "visited": false,
+    "venue_website": "http://houseofprimerib.net/",
+    "venue_geolng": -122.4227219,
+    "item_name": "Prime rib",
+    "venue_name": "House of Prime Rib",
+    "venue_address": "1906 Van Ness Ave San Francisco, CA",
+    "venue_geolat": 37.7934296,
+    "item_id": 33
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.oyajirestaurant.com/",
+    "venue_geolng": -122.4928009,
+    "item_name": "Way too much cold sake",
+    "venue_name": "Oyaji",
+    "venue_address": "3123 Clement St San Francisco, CA",
+    "venue_geolat": 37.7816042,
+    "item_id": 34
+  },
+  {
+    "visited": false,
+    "venue_website": "http://biritecreamery.com/",
+    "venue_geolng": -122.4258003,
+    "item_name": "Salted-caramel ice cream",
+    "venue_name": "Bi-Rite Creamery",
+    "venue_address": "3692 18th St San Francisco, CA",
+    "venue_geolat": 37.7615296,
+    "item_id": 35
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.santungrestaurant.com/",
+    "venue_geolng": -122.468968,
+    "item_name": "Dry-fried chicken wings",
+    "venue_name": "San Tung",
+    "venue_address": "1031 Irving Street San Francisco, CA",
+    "venue_geolat": 37.7638007,
+    "item_id": 36
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.limonrotisserie.com/",
+    "venue_geolng": -122.4166189,
+    "item_name": "Rotisserie chicken",
+    "venue_name": "Limon Rotisserie",
+    "venue_address": "1001 South Van Ness Avenue San Francisco, CA",
+    "venue_geolat": 37.7570498,
+    "item_id": 37
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.sprucesf.com/",
+    "venue_geolng": -122.452758,
+    "item_name": "Burger and fries at the bar",
+    "venue_name": "Spruce",
+    "venue_address": "3640 Sacramento Street San Francisco, CA",
+    "venue_geolat": 37.787725,
+    "item_id": 38
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4088447,
+    "item_name": "Pierna Enchilada Torta",
+    "venue_name": "La Torta Gorda",
+    "venue_address": "2833 24th Street San Francisco, CA",
+    "venue_geolat": 37.7527943,
+    "item_id": 39
+  },
+  {
+    "visited": false,
+    "venue_website": "http://taylorsautomaticrefresher.com/",
+    "venue_geolng": -122.3147223,
+    "item_name": "Cheeseburger with sweet potato fries",
+    "venue_name": "Taylor's Automatic Refresher",
+    "venue_address": "1 Ferry Plaza San Francisco, CA",
+    "venue_geolat": 37.8136396,
+    "item_id": 40
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4178334,
+    "item_name": "Pho Ga",
+    "venue_name": "Turtle Towner Resturant",
+    "venue_address": "631 Larkin Street San Francisco, CA",
+    "venue_geolat": 37.7838246,
+    "item_id": 41
+  },
+  {
+    "visited": false,
+    "venue_website": "http://frenchsoulfood.com/",
+    "venue_geolng": -122.4189906,
+    "item_name": "Fried-shrimp po'boy",
+    "venue_name": "Brenda's French Soul Food",
+    "venue_address": "652 Polk Street San Francisco, CA",
+    "venue_geolat": 37.782891,
+    "item_id": 42
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.alembicbar.com/",
+    "venue_geolng": -122.451176,
+    "item_name": "An Old Fashioned",
+    "venue_name": "Alembic",
+    "venue_address": "1725 Haight Street San Francisco, CA",
+    "venue_geolat": 37.769371,
+    "item_id": 43
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.nopasf.com/",
+    "venue_geolng": -122.437704,
+    "item_name": "One of Neyah White's shrubs",
+    "venue_name": "Nopa",
+    "venue_address": "560 Divisadero San Francisco, CA",
+    "venue_geolat": 37.7748432,
+    "item_id": 44
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4119348,
+    "item_name": "Secret Breakfast Ice Cream",
+    "venue_name": "Humphry Slocombe",
+    "venue_address": "2790 Harrison St San Francisco, CA",
+    "venue_geolat": 37.7527961,
+    "item_id": 45
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.papalote-sf.com/",
+    "venue_geolng": -122.4209758,
+    "item_name": "Chips and salsa",
+    "venue_name": "Papalote",
+    "venue_address": "3409 24th St San Francisco, CA",
+    "venue_geolat": 37.7520658,
+    "item_id": 46
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.lamarcebicheria.com/",
+    "venue_geolng": -122.399646,
+    "item_name": "Ceviche and a pisco sour on the patio",
+    "venue_name": "La Mar Cebicheria Peruana",
+    "venue_address": "Pier 1.5, The Embarcadero San Francisco, CA",
+    "venue_geolat": 37.794649,
+    "item_id": 47
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.anchorandhopesf.com/",
+    "venue_geolng": -122.39888,
+    "item_name": "Angels on horseback",
+    "venue_name": "Anchor & Hope",
+    "venue_address": "83 Minna Street San Francisco, CA",
+    "venue_geolat": 37.78784,
+    "item_id": 48
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.miette.com/",
+    "venue_geolng": -122.39343,
+    "item_name": "Ginger snaps",
+    "venue_name": "Miette",
+    "venue_address": "1 Ferry Building San Francisco, CA",
+    "venue_geolat": 37.795233,
+    "item_id": 49
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.monkskettle.com/",
+    "venue_geolng": -122.4228538,
+    "item_name": "An obscure Belgian beer",
+    "venue_name": "The Monk's Kettle",
+    "venue_address": "3141 16th St San Francisco, CA",
+    "venue_geolat": 37.7648403,
+    "item_id": 50
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.a16sf.com/",
+    "venue_geolng": -122.4421346,
+    "item_name": "Maccaronara with ricotta salata",
+    "venue_name": "A16",
+    "venue_address": "2355 Chestnut St San Francisco, CA",
+    "venue_geolat": 37.7999665,
+    "item_id": 51
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.nopalitosf.com/",
+    "venue_geolng": -122.4390894,
+    "item_name": "Carnitas",
+    "venue_name": "Nopalito",
+    "venue_address": "306 Broderick St San Francisco, CA",
+    "venue_geolat": 37.7729999,
+    "item_id": 53
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.fourbarrelcoffee.com/",
+    "venue_geolng": -122.407633,
+    "item_name": "Spiced-chocolate doughnut",
+    "venue_name": "Dynamo Donut [http://www.dynamodonut.com/] with a Four Barrel",
+    "venue_address": "2760 24th Street San Francisco, CA",
+    "venue_geolat": 37.753117,
+    "item_id": 54
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.outthedoors.com/",
+    "venue_geolng": -122.434122,
+    "item_name": "Chicken porridge for breakfast",
+    "venue_name": "the Bush Street Out the Door",
+    "venue_address": "2232 Bush Street San Francisco, CA",
+    "venue_geolat": 37.787208,
+    "item_id": 55
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.berettasf.com/",
+    "venue_geolng": -122.4207942,
+    "item_name": "Nuestra Paloma",
+    "venue_name": "Beretta",
+    "venue_address": "1199 Valencia Street San Francisco, C.A.",
+    "venue_geolat": 37.7537202,
+    "item_id": 56
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.quincerestaurant.com/",
+    "venue_geolng": -122.4032399,
+    "item_name": "Agnolotti",
+    "venue_name": "Quince",
+    "venue_address": "470 Pacific Ave San Francisco, CA",
+    "venue_geolat": 37.7974377,
+    "item_id": 57
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.4505meats.com/",
+    "venue_geolng": -122.4032399,
+    "item_name": "Chicharrones",
+    "venue_name": "4505 Meats",
+    "venue_address": "470 Pacific Ave San Francisco, CA",
+    "venue_geolat": 37.7974377,
+    "item_id": 58
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4086202,
+    "item_name": "Huarache with cactus salad",
+    "venue_name": "El Huarache Loco",
+    "venue_address": "100 Alemany Blvd San Francisco, CA ",
+    "venue_geolat": 37.7373498,
+    "item_id": 59
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.littlestarpizza.com/",
+    "venue_geolng": -122.437986,
+    "item_name": "The Little Star",
+    "venue_name": "Little Star Pizza",
+    "venue_address": "846 Divisadero Street San Francisco, CA",
+    "venue_geolat": 37.777538,
+    "item_id": 60
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.437986,
+    "item_name": "Egg Custard Tart",
+    "venue_name": "Golden Gate Bakery",
+    "venue_address": "846 Divisadero Street San Francisco, CA",
+    "venue_geolat": 37.777538,
+    "item_id": 61
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.tonkiang.net/",
+    "venue_geolng": -122.4819991,
+    "item_name": "Dim sum",
+    "venue_name": "Ton Kiang",
+    "venue_address": "5821 Geary Blvd San Francisco, CA",
+    "venue_geolat": 37.7800777,
+    "item_id": 62
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.aziza-sf.com/",
+    "venue_geolng": -122.481714,
+    "item_name": "Meatballs with grapes",
+    "venue_name": "Aziza",
+    "venue_address": "5800 Geary Blvd San Francisco, CA",
+    "venue_geolat": 37.780541,
+    "item_id": 63
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.tadichgrill.com/",
+    "venue_geolng": -122.399441,
+    "item_name": "Sand dabs",
+    "venue_name": "Tadich Grill",
+    "venue_address": "240 California Street San Francisco, CA",
+    "venue_geolat": 37.793356,
+    "item_id": 64
+  },
+  {
+    "visited": false,
+    "venue_website": "http://anthonyscookies.com/",
+    "venue_geolng": -122.4203495,
+    "item_name": "Cookies-and-cream cookie and milk",
+    "venue_name": "Anthony's Cookies",
+    "venue_address": "1417 Valencia Street San Francisco, CA",
+    "venue_geolat": 37.7501854,
+    "item_id": 65
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.incanto.biz/",
+    "venue_geolng": -122.427057,
+    "item_name": "Pig parts",
+    "venue_name": "Incanto",
+    "venue_address": "1550 Church St San Francisco, CA",
+    "venue_geolat": 37.745974,
+    "item_id": 66
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.dosasf.com/",
+    "venue_geolng": -122.4210084,
+    "item_name": "Paper masala dosa",
+    "venue_name": "Dosa",
+    "venue_address": "995 Valencia St San Francisco, CA",
+    "venue_geolat": 37.7571297,
+    "item_id": 67
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.absinthe.com/",
+    "venue_geolng": -122.422885,
+    "item_name": "The housemade hot dog",
+    "venue_name": "Absinthe",
+    "venue_address": "398 Hayes Street San Francisco, CA",
+    "venue_geolat": 37.776995,
+    "item_id": 68
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4093557,
+    "item_name": "Foccacia",
+    "venue_name": "Liguria Bakery",
+    "venue_address": "1700 Stockton Street San Francisco, CA",
+    "venue_geolat": 37.8013793,
+    "item_id": 69
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.sebosf.com/",
+    "venue_geolng": -122.4251092,
+    "item_name": "Omakase menu",
+    "venue_name": "Sebo",
+    "venue_address": "517 Hayes Street San Francisco, CA",
+    "venue_geolat": 37.7765985,
+    "item_id": 70
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.wexlerssf.com/",
+    "venue_geolng": -122.4025153,
+    "item_name": "Scotch egg",
+    "venue_name": "Wexler's",
+    "venue_address": "568 Sacramento St San Francisco, CA",
+    "venue_geolat": 37.7939145,
+    "item_id": 71
+  },
+  {
+    "visited": false,
+    "venue_website": "http://heavensdog.com/",
+    "venue_geolng": -122.4122381,
+    "item_name": "Shanghai Buck",
+    "venue_name": "Heaven's Dog",
+    "venue_address": "1148 Mission Street San Francisco, CA",
+    "venue_geolat": 37.7784809,
+    "item_id": 72
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.neimanmarcus.com/store/info/restaurant.jhtml?rest=200010",
+    "venue_geolng": -122.4064867,
+    "item_name": "Popovers with strawberry butter",
+    "venue_name": "the Rotunda",
+    "venue_address": "150 Stockton Street San Francisco, CA",
+    "venue_geolat": 37.7871704,
+    "item_id": 73
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.thesentinelsf.com/",
+    "venue_geolng": -122.4014996,
+    "item_name": "Corned-beef sandwich with Gruy√®re",
+    "venue_name": "The Sentinel",
+    "venue_address": "37 New Montgomery Street San Francisco, CA",
+    "venue_geolat": 37.7882835,
+    "item_id": 74
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.coco500.com/",
+    "venue_geolng": -122.3967871,
+    "item_name": "Fried green beans",
+    "venue_name": "Coco500",
+    "venue_address": "500 Brannan Street San Francisco, CA",
+    "venue_geolat": 37.7783505,
+    "item_id": 75
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.ellassanfrancisco.com/",
+    "venue_geolng": -122.4467317,
+    "item_name": "Chicken hash",
+    "venue_name": "Ella's",
+    "venue_address": "500 Presidio Avenue San Francisco, CA",
+    "venue_geolat": 37.7869903,
+    "item_id": 76
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.zaziesf.com/",
+    "venue_geolng": -122.4499859,
+    "item_name": "Eggs benedict on the back patio",
+    "venue_name": "Zazie",
+    "venue_address": "941 Cole St San Francisco, CA",
+    "venue_geolat": 37.7652492,
+    "item_id": 77
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4199072,
+    "item_name": "Super Burrito",
+    "venue_name": "Taqueira Cancun",
+    "venue_address": "3211 Mission Street San Francisco, CA",
+    "venue_geolat": 37.7453394,
+    "item_id": 78
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.alfredssteakhouse.com/",
+    "venue_geolng": -122.4199072,
+    "item_name": "Onion strings",
+    "venue_name": "Alfred's Steakhouse",
+    "venue_address": "3211 Mission Street San Francisco, CA",
+    "venue_geolat": 37.7453394,
+    "item_id": 79
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.piqueos.com/",
+    "venue_geolng": -122.4146381,
+    "item_name": "Fried chickpeas",
+    "venue_name": "Piqueo's",
+    "venue_address": "830 Cortland Avenue San Francisco, CA",
+    "venue_geolat": 37.7388818,
+    "item_id": 82
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.universalcafe.net/",
+    "venue_geolng": -122.410647,
+    "item_name": "French fries",
+    "venue_name": "Universal Cafe",
+    "venue_address": "2814 19th Street San Francisco, CA",
+    "venue_geolat": 37.760629,
+    "item_id": 83
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.tommystequila.com/",
+    "venue_geolng": -122.483152,
+    "item_name": "A margarita",
+    "venue_name": "Tommy's Mexican Restaurant",
+    "venue_address": "5929 Geary Boulevard San Francisco, CA",
+    "venue_geolat": 37.7800806,
+    "item_id": 84
+  },
+  {
+    "visited": false,
+    "venue_website": "http://roadsidebbq.com/",
+    "venue_geolng": -122.4598862,
+    "item_name": "Pulled-pork sandwich",
+    "venue_name": "Roadside BBQ",
+    "venue_address": "3751 Geary Boulevard San Francisco, CA",
+    "venue_geolat": 37.781051,
+    "item_id": 85
+  },
+  {
+    "visited": false,
+    "venue_website": "",
+    "venue_geolng": -122.4217696,
+    "item_name": "Cheese Slice",
+    "venue_name": "Arinell Pizza Inc",
+    "venue_address": "509 Valencia Street San Francisco, CA",
+    "venue_geolat": 37.7647032,
+    "item_id": 86
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.yanksing.com/",
+    "venue_geolng": -122.392848,
+    "item_name": "Sesame balls",
+    "venue_name": "Yank Sing",
+    "venue_address": "101 Spear Street, 1 Rincon Center San Francisco, CA",
+    "venue_geolat": 37.792266,
+    "item_id": 87
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.betelnutrestaurant.com/",
+    "venue_geolng": -122.432698,
+    "item_name": "Lettuce cups",
+    "venue_name": "Betelnut",
+    "venue_address": "2030 Union Street San Francisco, CA",
+    "venue_geolat": 37.797658,
+    "item_id": 89
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.mijitasf.com/",
+    "venue_geolng": -122.39343,
+    "item_name": "Albondigas soup",
+    "venue_name": "Mijita",
+    "venue_address": "1 Ferry Building San Francisco, CA",
+    "venue_geolat": 37.795233,
+    "item_id": 91
+  },
+  {
+    "visited": false,
+    "venue_website": "http://toscacafesf.com/",
+    "venue_geolng": -122.4059989,
+    "item_name": "The house cappuccino",
+    "venue_name": "Tosca Cafe",
+    "venue_address": "242 Columbus Avenue San Francisco, CA",
+    "venue_geolat": 37.7975537,
+    "item_id": 94
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.sfgrubstake.com/",
+    "venue_geolng": -122.4208548,
+    "item_name": "Caldo verde soup",
+    "venue_name": "Grubstake",
+    "venue_address": "1525 Pine Street San Francisco, CA",
+    "venue_geolat": 37.7894846,
+    "item_id": 95
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.foreigncinema.com/",
+    "venue_geolng": -122.4190137,
+    "item_name": "Bloody Mary with brunch",
+    "venue_name": "Foreign Cinema",
+    "venue_address": "2534 Mission St San Francisco, CA",
+    "venue_geolat": 37.7564487,
+    "item_id": 98
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.hogislandoysters.com/",
+    "venue_geolng": -122.39343,
+    "item_name": "Clam chowder",
+    "venue_name": "Hog Island Oyster Co.",
+    "venue_address": "One Ferry Building San Francisco, CA",
+    "venue_geolat": 37.795233,
+    "item_id": 99
+  },
+  {
+    "visited": false,
+    "venue_website": "http://www.ilikeikesplace.com/",
+    "venue_geolng": -122.4194155,
+    "item_name": "Menage a Trois",
+    "venue_name": "Ike's Place",
+    "venue_address": "2247 Market St (Inside Lime Lounge) San Francisco, CA",
+    "venue_geolat": 37.7749295,
+    "item_id": 100
+  }
+]

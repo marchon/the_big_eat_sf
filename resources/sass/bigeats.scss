@@ -1,0 +1,182 @@
+
+$base_color: #F6F6F7;
+$active_color: #1F4265;
+$color_light: #444;
+$complement: #777;
+
+$list_header_bg_color: #ccc;
+$list_header_color: #777;
+
+$include_all_icons: false;
+
+@import 'sencha-touch/default/all';
+
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-toolbar;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-form;
+@include sencha-msgbox;
+
+@include pictos-button-iconmask('globe1');
+@include pictos-button-iconmask('list');
+@include pictos-button-iconmask('info');
+@include pictos-button-iconmask('settings');
+@include pictos-button-iconmask('more');
+
+input, textarea, select {
+	font-size: 0.8em;
+}
+
+.x-label-align-left label, .x-label-align-right label {
+	width: 5em;
+
+}
+
+.x-item-disabled label span, .x-item-disabled input, .x-item-disabled .x-spinner-body, .x-item-disabled select, .x-item-disabled textarea {
+	opacity: 1;
+}
+
+.splash {
+  background: #FAFAFA inline_image("bg.png") center top no-repeat;
+}
+
+.start-screen {
+  background-color: #ccc;
+  margin-top: 115px;
+}
+
+.x-toolbar .x-toolbar-title {
+  color: #1F4265;
+  font-size: 1em;
+  line-height: 2.4em;
+  text-overflow: ellipsis;
+  font-weight: normal;
+}
+
+.x-toolbar.x-docked-top {
+	border-bottom: 0.1em solid #1F4265;
+}
+
+.about {
+  color: #666;
+  text-shadow: rgba(255,255,255,.2) 0 1px 0;
+  padding: 1em 0;
+}
+
+.bigeats-tnail {
+  width: 75px;
+  height: 75px;
+  background-position: center center;
+  -webkit-border-radius: 5px;
+  overflow: hidden;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  -webkit-box-shadow: #ccc 0 1px 2px;
+}
+
+
+.bigeatsitem-list-item {
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  padding: 20px 10px 10px 70px !important;
+  @include bevel_text('light');
+  
+  &.x-view-selected {
+    background: $active_color none !important;
+    color: lighten($active_color, 50%) !important;
+  }
+  img {
+    position: absolute;
+    left: 0px;
+    top: 0;
+  }
+}
+
+.bigeats-list-item {
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  padding: 20px 10px 10px 100px !important;
+  @include bevel_text('light');
+  
+  &.x-view-selected {
+    background: $active_color none !important;
+    color: lighten($active_color, 50%) !important;
+  }
+  img {
+    position: absolute;
+    left: 0px;
+    top: 0;
+  }
+}
+
+.x-html {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 18px;  
+  
+  h3 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+}
+
+.x-button a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.about {
+    text-align: center;
+}
+
+.x-toolbar .x-button .x-button-label, .x-toolbar .x-button .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button .x-badge {
+	font-size: 0.5em;
+}
+
+
+.x-button img.x-icon-mask {
+	-webkit-mask-size: 1em 1em;
+	height: 1em;
+	width: 1em;
+}
+
+span.loading {
+    display: inline-block;
+    background: rgba(0, 0, 0, .1);
+    padding-top: 100px;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, .5);
+    text-shadow: rgba(255, 255, 255, .3);
+    font-size: 32px;
+}
+
+.loading {
+    background: rgba(0, 0, 0, .3) url(../img/loading.gif) center center no-repeat;
+    display: block;
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -5em;
+    margin-top: -5em;
+    -webkit-border-radius: .5em;
+    color: #fff;
+    text-shadow: #000 0 1px 1px;
+    text-align: center;
+    padding-top: 8em;
+    font-weight: bold;
+}

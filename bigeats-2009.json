@@ -1,0 +1,812 @@
+[
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://zunicafe.com",
+    "venue_name": "Zuni",
+    "item_name": "Roast chicken and bread salad",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 1
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://rangesf.com",
+    "venue_name": "Range",
+    "item_name": "Coffee-rubbed pork shoulder",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 2
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/la-taqueria",
+    "venue_name": "La Taqueria",
+    "item_name": "Carnitas taco",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 3
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://thefrontporchsf.com",
+    "venue_name": "the Front Porch",
+    "item_name": "Spicy crab and grits",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 4
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://slowclub.com",
+    "venue_name": "Slow Club",
+    "item_name": "Burger with fries",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 6
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://slanteddoor.com",
+    "venue_name": "the Slanted Door",
+    "item_name": "Shaking beef",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 7
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://tartinebakery.com",
+    "venue_name": "Tartine Bakery",
+    "item_name": "Morning bun",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 8
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/nick-s-crispy-tacos",
+    "venue_name": "Nick's Crispy Tacos",
+    "item_name": "Baja-style fish tacos",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 10
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://delfinasf.com",
+    "venue_name": "Delfina",
+    "item_name": "Pork sugo with pappardelle",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 11
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://www.roliroti.com/] at the Saturday Ferry Plaza Farmers Market[/restaurants/yuet-lee",
+    "venue_name": "RoliRoti",
+    "item_name": "Porchetta sandwich",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 12
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/shanghai-house",
+    "venue_name": "Shanghai House",
+    "item_name": "Soup dumplings",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 13
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://memphisminnies.com",
+    "venue_name": "Memphis Minnie's",
+    "item_name": "Beef brisket",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 14
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/swan-oyster-depot",
+    "venue_name": "Swan Oyster Depot",
+    "item_name": "Oysters on the half shell",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 15
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://burmasuperstar.com",
+    "venue_name": "Burma Superstar",
+    "item_name": "Tea-leaf salad",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 17
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://perbaccosf.com",
+    "venue_name": "Perbacco",
+    "item_name": "Salumi misti plate",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 18
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://michaelmina.net",
+    "venue_name": "Michael Mina",
+    "item_name": "Tuna tartare",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 19
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://thelibertycafe.com",
+    "venue_name": "Liberty Café",
+    "item_name": "Chicken pot pie",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 20
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://pizzeriadelfina.com",
+    "venue_name": "Pizzeria Delfina",
+    "item_name": "Pizza margherita",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 21
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/rosamunde-sausage-grill",
+    "venue_name": "Rosamunde Sausage Grill",
+    "item_name": "Beer sausage with sauerkraut and grilled onions",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 23
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://magnoliapub.com",
+    "venue_name": "Magnolia Pub",
+    "item_name": "Blue Bell Bitter from the cask",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 24
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://tartinebakery.com",
+    "venue_name": "Tartine",
+    "item_name": "Loaf of bread straight out of the oven",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 25
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://bourbonandbranch.com",
+    "venue_name": "Bourbon & Branch",
+    "item_name": "A classic gin martini",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 26
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://bluebottlecoffee.net",
+    "venue_name": "Blue Bottle Café",
+    "item_name": "A Gibraltar",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 28
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://suppenkuche.com",
+    "venue_name": "Suppenküche",
+    "item_name": "Spaetzle",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 29
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://cantinasf.com",
+    "venue_name": "Cantina",
+    "item_name": "Laughing Buddha cocktail",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 30
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://laiola.com",
+    "venue_name": "Laïola",
+    "item_name": "Pan con chocolate with sea salt and olive oil",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 31
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://balompiecafe.com",
+    "venue_name": "Balompie Café #3",
+    "item_name": "Pupusas",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 32
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://houseofprimerib.net",
+    "venue_name": "House of Prime Rib",
+    "item_name": "Prime rib",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 33
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://oyajirestaurant.com",
+    "venue_name": "Oyaji",
+    "item_name": "Yellowtail collar",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 34
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://biritecreamery.com",
+    "venue_name": "Bi-Rite Creamery",
+    "item_name": "Salted-caramel ice cream",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 35
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/san-tung",
+    "venue_name": "San Tung",
+    "item_name": "Dry-fried chicken wings",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 36
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://limonrotisserie.com",
+    "venue_name": "Limón Rotisserie",
+    "item_name": "Rotisserie chicken",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 37
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://hayesstreetgrill.com",
+    "venue_name": "Hayes Street Grill",
+    "item_name": "French fries",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 38
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://taylorsrefresher.com",
+    "venue_name": "Taylor's Automatic Refresher",
+    "item_name": "Cheeseburger",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 40
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://frenchsoulfood.com",
+    "venue_name": "Brenda's French Soul Food",
+    "item_name": "Fried-shrimp po'boy",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 42
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://alembicbar.com",
+    "venue_name": "Alembic",
+    "item_name": "Mint julep",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 43
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://baybread.com",
+    "venue_name": "Boulangerie Bay Bread",
+    "item_name": "Cannelé",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 44
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://absinthe.com",
+    "venue_name": "Absinthe",
+    "item_name": "Galapagos cocktail",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 45
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://papalote-sf.com",
+    "venue_name": "Papalote",
+    "item_name": "Chips and salsa",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 46
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://lamarcebicheria.com",
+    "venue_name": "La Mar Cebichería Peruana",
+    "item_name": "Ceviche",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 47
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://anchorandhope.com",
+    "venue_name": "Anchor & Hope",
+    "item_name": "Angels on horseback",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 48
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://miettecakes.com",
+    "venue_name": "Miette",
+    "item_name": "Ginger snaps",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 49
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://monkskettle.com",
+    "venue_name": "The Monk's Kettle",
+    "item_name": "Giant pretzel with mustard",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 50
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://a16restaurant.com",
+    "venue_name": "A16",
+    "item_name": "Maccaronara with ricotta salata",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 51
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://spqrsf.com",
+    "venue_name": "SPQR",
+    "item_name": "Fried brussels sprouts",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 52
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://piperade.com",
+    "venue_name": "Piperade",
+    "item_name": "Garlic soup",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 53
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://dynamosf.com",
+    "venue_name": "Dynamo Donut",
+    "item_name": "Spiced-chocolate doughnut",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 54
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://berettasf.com",
+    "venue_name": "Beretta",
+    "item_name": "Caponatina with burrata",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 56
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://kokkari.com",
+    "venue_name": "Kokkari Estiatorio",
+    "item_name": "Goat stew",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 57
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://jardiniere.com",
+    "venue_name": "Jardinière",
+    "item_name": "Absinthe daiquiri",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 58
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://littlestarpizza.com",
+    "venue_name": "Little Star Pizza",
+    "item_name": "The Brass Monkey",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 60
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/cafe-jacqueline",
+    "venue_name": "Café Jacqueline",
+    "item_name": "Crab soufflé",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 61
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://tonkiang.net",
+    "venue_name": "Ton Kiang",
+    "item_name": "Shrimp-and-chive dumplings",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 62
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://aziza-sf.com",
+    "venue_name": "Aziza",
+    "item_name": "Meatballs with grapes",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 63
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://dosasf.com",
+    "venue_name": "Dosa",
+    "item_name": "Paper masala dosa",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 64
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/jai-yun",
+    "venue_name": "Jai Yun",
+    "item_name": "Crispy eggplant",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 65
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://incanto.biz",
+    "venue_name": "Incanto",
+    "item_name": "Pig parts",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 66
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://southfwb.com",
+    "venue_name": "South",
+    "item_name": "Licorice parfait",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 69
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/sebo",
+    "venue_name": "Sebo",
+    "item_name": "Omakase menu",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 70
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://duccasf.com",
+    "venue_name": "Ducca",
+    "item_name": "Arancini",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 72
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://thesentinelsf.com",
+    "venue_name": "the Sentinel",
+    "item_name": "Corned-beef sandwich with Gruyère",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 74
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://coco500.com",
+    "venue_name": "Coco500",
+    "item_name": "Fried green beans",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 75
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://ellassanfrancisco.com",
+    "venue_name": "Ella's",
+    "item_name": "Chicken hash",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 76
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://zaziesf.com",
+    "venue_name": "Zazie",
+    "item_name": "Eggs benedict on the back patio",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 77
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://alfredssteakhouse.com",
+    "venue_name": "Alfred's Steakhouse",
+    "item_name": "Onion strings",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 79
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/punjab-kabab-house",
+    "venue_name": "Punjab Kabab House",
+    "item_name": "Chicken curry",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 81
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://piqueos.com",
+    "venue_name": "Piqueo's",
+    "item_name": "Fried chickpeas",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 82
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/poleng-lounge",
+    "venue_name": "Poleng Lounge",
+    "item_name": "Sweet-potato fries with banana catsup",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 83
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://tommystequila.com",
+    "venue_name": "Tommy's Mexican Restaurant",
+    "item_name": "A margarita",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 84
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://roadsidebbq.com",
+    "venue_name": "Roadside BBQ",
+    "item_name": "Pulled-pork sandwich",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 85
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/out-door",
+    "venue_name": "Out the Door",
+    "item_name": "Fresh spring rolls",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 87
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "/restaurants/ti-couz",
+    "venue_name": "Ti Couz",
+    "item_name": "Buckwheat crepe and a French cider",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 88
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://trulymed.com",
+    "venue_name": "Truly Mediterranean",
+    "item_name": "Lamb schawerma",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 89
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://coirestaurant.com",
+    "venue_name": "Coi",
+    "item_name": "Slow-cooked egg",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 90
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://mijitasf.com",
+    "venue_name": "Mijita",
+    "item_name": "Albondigas soup",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 91
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://Pagolac.com",
+    "venue_name": "Pagolac",
+    "item_name": "Seven courses of beef",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 93
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://sfgrubstake.com",
+    "venue_name": "Grubstake",
+    "item_name": "3 a.m. bowl of caldo verde soup",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 95
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://yanksing.com",
+    "venue_name": "Yank Sing",
+    "item_name": "Sesame balls",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 97
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://ryesf.com",
+    "venue_name": "Rye",
+    "item_name": "Basil gimlet",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 98
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://hogislandoysters.com",
+    "venue_name": "Hog Island Oyster Co",
+    "item_name": "Clam chowder",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 99
+  },
+  {
+    "visited": false,
+    "venue_geolng": 0,
+    "venue_website": "http://garydanko.com",
+    "venue_name": "Gary Danko",
+    "item_name": "Cheese course",
+    "venue_address": "",
+    "venue_geolat": 0,
+    "item_id": 100
+  }
+]
